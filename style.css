@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6;
+  background-color: bisque;
+  color: rgb(65, 22, 1);
+}
+
+/* Cabeçalho */
+
+header {
+  background-color: rgb(248, 193, 158);
+  text-align: center;
+  padding: 1em 0;
+}
+header h1 {
+  margin: 0;
+}
+.perfil {
+  background-color: aliceblue;
+  border: 2px solid #8c8c8c;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 1em;
+  text-align: center;
+}
+.perfil img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.perfil h2 {
+  color: rgb(170, 97, 30);
+  margin-top: 0.5em;
+}
+.perfil p {
+  color: #6a2305;
+}
+
+/* Habilidades  */
+
+.habilidades {
+  background-color: #f2d1b3;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 1em;
+}
+.habilidades h3 {
+  color: rgb(130, 70, 20);
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.habilidades ul {
+  list-style-type: none;
+  padding: 0;
+}
+.habilidades li {
+  background-color: #e6a474;
+  color: rgb(145, 48, 18);
+  padding: 0.5em;
+  margin: 0.3em 0;
+  text-align: center;
+}
+
+/* Redes Sociais */
+.redes-sociais {
+  background-color: #f2d1b3;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 1em;
+}
+.redes-sociais h3 {
+  color: rgb(130, 70, 20);
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.redes-sociais ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+.redes-sociais li {
+  display: inline;
+  margin: 0 10px;
+}
+.redes-sociais a {
+  color: #962705; /* Cor original do texto */
+  text-decoration: none;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+/* Efeito Hover */
+.redes-sociais a:hover {
+  background-color: #6a2305; /* Cor mais escura para o fundo */
+  color: #f2d1b3; /* Cor mais clara para o texto */
+  text-decoration: none; /* Remover o sublinhado no hover */
+}
+
+/* Rodapé */
+footer {
+  background-color: rgb(248, 193, 158);
+  color: #962705;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 20px;
+}
